@@ -26,7 +26,7 @@ export const HeaderContainer = styled.header`
         border-bottom-color: ${({ theme }) => theme['green-500']};
       }
 
-      &:active {
+      &.active {
         color: ${({ theme }) => theme['green-500']};
       }
     }
